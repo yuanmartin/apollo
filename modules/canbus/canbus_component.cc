@@ -233,5 +233,6 @@ common::Status CanbusComponent::OnError(const std::string &error_msg) {
   return ::apollo::common::Status(ErrorCode::CANBUS_ERROR, error_msg);
 }
 
+
 }  // namespace canbus
 }  // namespace apollo
